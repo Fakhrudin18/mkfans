@@ -1,3 +1,9 @@
+/* NAVBAR */
+.navbar a:hover {
+  color: red;
+}
+/* CLOSE NAVBAR */
+
 /* BUTTON */
 .jumbotron {
   background-image: url(../image/keycaps&accessories/keycaps.png);
@@ -6,6 +12,13 @@
   height: 400px;
   width: 400px;
   padding-top: 40px;
+}
+
+.jumbotron button {
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  padding: 0px 50px;
 }
 
 .bg {
@@ -35,12 +48,46 @@
 }
 
 .card p {
-    margin-left: -5px;
-    margin-bottom: 5px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+}
+
+.card button {
+  margin-left: -5px;
+}
+
+.card button:hover {
+  background-color: red;
+  border: 0;
 }
 
 .card a {
-    margin-left: -5px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-left: -5px;
+}
+
+.card a:hover {
+  color: red;
+}
+
+.card a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.card a:hover::after {
+  width: 100%;
 }
 /* CLOS NEW ARRIVAL */
 
@@ -58,10 +105,6 @@ footer {
   padding-top: 2rem;
 }
 
-.footer button {
-  margin-left: -35px;
-}
-
 .footer h3 {
   color: red;
   margin-bottom: -3px;
@@ -72,12 +115,25 @@ footer {
   text-decoration: none;
 }
 
+.footer img {
+  margin-bottom: 1rem;
+}
+
+.footer input {
+  border-radius: 0px;
+}
+
+.footer button {
+  border-radius: 0px;
+  margin-left: -20px;
+}
+
 .term {
   margin-top: 2rem;
   margin-left: -2rem;
 }
 
-.term ul li{
+.term ul li {
   display: inline;
 }
 
@@ -89,10 +145,14 @@ footer {
   color: gray;
 }
 
+.pay {
+  margin-left: auto;
+}
+
 .icon-pay {
-  width: 25px;
-  height: 25px;
-  fill: red;
+  width: 30px;
+  height: 30px;
+  fill: gray;
   display: inline;
   margin-top: 2rem;
 }
