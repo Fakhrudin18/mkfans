@@ -107,7 +107,7 @@
 /* CLOS NEW ARRIVAL */
 
 /* CAROUSEL NEW ARRIVAL */
-.carousel {
+.product {
   display: none;
 }
 /* CLOSE CAROUSEL NEW ARRIVAL */
@@ -319,6 +319,10 @@ footer {
 .footer a:hover {
   color: red;
 }
+
+.footer-phone {
+  display: none;
+}
 /* CLOSE FOOTER */
 
 /* FOR HANDPHONE */
@@ -374,5 +378,29 @@ footer {
   width: 200px;
 }
 /* CLOSE CAROUSEL NEW-ARRIVAL */
+
+/* FOOTER */
+.footer-desktop {
+  display: none;
+}
+
+.footer-phone {
+  display: block;
+  font-size: 1em;
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+}
+
+.term {
+  margin-top: -20px;
+  margin-left: auto;
+}
+
+.term span {
+  color: rgb(255, 255, 255);
+}
+/* CLOSE FOOTER */
+
 }
 /* CLOSE FOR HANDPHONE */
