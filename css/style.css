@@ -40,56 +40,216 @@
 /* CLOSE BUTTON */
 
 /* NEW ARRIVAL */
+.underline a {
+  text-decoration: none !important;
+}
+
 .card h2 {
   font-size: 20px;
   font-weight: 500px;
   font-weight: bold;
-  margin: -10px 0 0 -5px;
+  margin: -10px 0 0 -13px;
+}
+
+.card h2:hover {
+  color: #dc3545;
 }
 
 .card p {
-  margin-left: -5px;
+  margin-left: -13px;
   margin-bottom: 5px;
 }
 
-.card button {
-  margin-left: -5px;
+.TOFU60 img {
+  transition: all 1s;
 }
 
-.card button:hover {
-  background-color: red;
-  border: 0;
+.TOFU60:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/2pL8UOO_360x.jpg?v=1680847380);
+  filter: brightness(80%);
 }
 
-.card a {
-  position: relative;
-  text-decoration: none;
-  color: black;
-  font-size: 1.3em;
-  font-weight: 700;
-  margin-left: -5px;
+.tofu60-hotswap img {
+  transition: all 1s;
 }
 
-.card a:hover {
-  color: red;
+.tofu60-hotswap:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/12_dbef5dd1-6662-41cb-a205-017524c0cf7e_180x.jpg?v=1676970520);
+  filter: brightness(80%);
 }
 
-.card a::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: red;
-  transition: width 0.3s ease-in-out;
-  position: absolute;
-  bottom: -2px;
-  left: 0;
+.tiger-purple img {
+  transition: all 1s;
 }
 
-.card a:hover::after {
-  width: 100%;
+.tiger-purple:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/16_2a3c7311-6abe-44ff-b004-c34d8c74e7c1_180x.jpg?v=1679639456);
+  filter: brightness(80%);
+}
+
+.kbdpad img {
+  transition: all 1s;
+}
+
+.kbdpad:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/5_be540a22-f6ca-4aab-90c4-6b9ed67f6d4e_360x.jpg?v=1662531218);
+  filter: brightness(80%);
+}
+
+.tofu65 img {
+  transition: all 1s;
+}
+
+.tofu65:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/10_2531de96-b718-4573-aa86-9605954c0dc2_540x.jpg?v=1669787261);
+  filter: brightness(80%);
 }
 /* CLOS NEW ARRIVAL */
+
+/* CAROUSEL NEW ARRIVAL */
+.carousel {
+  display: none;
+}
+/* CLOSE CAROUSEL NEW ARRIVAL */
+
+/* MOST POPULAR */
+.tet img {
+  transition: all 1s;
+}
+
+.tet:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/logo_180x.png?v=1681435716);
+  filter: brightness(80%);
+}
+
+.puller img {
+  transition: all 1s;
+}
+
+.puller:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/16_7a37ffec-147b-4e13-a7dc-69028b35ac2a_180x.jpg?v=1680837109);
+  filter: brightness(80%);
+}
+
+.retro img {
+  transition: all 1s;
+}
+
+.retro:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/3-ColorfulAccents_1_180x.jpg?v=1680767417);
+  filter: brightness(80%);
+}
+
+.wrist-rest img {
+  transition: all 1s;
+}
+
+.wrist-rest:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/2_ca6dca0e-3979-4e63-affc-dcd65d016bd0_180x.jpg?v=1679992357);
+  filter: brightness(80%);
+}
+
+.stand img {
+  transition: all 1s;
+}
+
+.stand:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/8_9c03147c-84c9-4cf6-938b-a95f3842f52a_300x.jpg?v=1679896821);
+  filter: brightness(80%);
+}
+/* CLOSE MOST POPULAR */
+
+/* KEYCAPS */
+.enjoypbt img {
+  transition: all 1s;
+}
+
+.enjoypbt:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/03_b9e04132-3220-4e61-85ab-40b40d7b7099_180x.jpg?v=1679388368);
+  filter: brightness(80%);
+}
+
+.cyrillic img {
+  transition: all 1s;
+}
+
+.cyrillic:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/NUMPAD_01_6a97e199-8055-4367-89cb-03d70c7c384a_180x.jpg?v=1679996175);
+  filter: brightness(80%);
+}
+
+.neo img {
+  transition: all 1s;
+}
+
+.neo:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/40s_fe6aa9fb-ca38-43a5-8fd7-20864629bfc8_180x.jpg?v=1678760153);
+  filter: brightness(80%);
+}
+
+.bits img {
+  transition: all 1s;
+}
+
+.bits:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/4_webp_180x.jpg?v=1679378150);
+  filter: brightness(80%);
+}
+
+.vior img {
+  transition: all 1s;
+}
+
+.vior:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/40s-Kit_792f5cac-6183-4997-8394-83585c3f8287_180x.jpg?v=1676970343);
+  filter: brightness(80%);
+}
+
+.kitsune img {
+  transition: all 1s;
+}
+
+.kitsune:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/Novelty_d9e68e5b-3779-4c77-9c84-0b094fdd2234_180x.jpg?v=1675757941);
+  filter: brightness(80%);
+}
+
+.clear img {
+  transition: all 1s;
+}
+
+.clear:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/5_17f83326-5841-47e7-b0dd-7ae3ead2f493_180x.jpg?v=1681097393);
+  filter: brightness(80%);
+}
+
+.scanner img {
+  transition: all 1s;
+}
+
+.scanner:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/7_fe95d8fb-1e48-4f75-b724-b220fc13e8e5_180x.jpg?v=1680058551);
+  filter: brightness(80%);
+}
+
+.cookies img {
+  transition: all 1s;
+}
+
+.cookies:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/cnc_new_kitting-02_360x.png?v=1681347451);
+  filter: brightness(80%);
+}
+
+.blood img {
+  transition: all 1s;
+}
+
+.blood:hover img {
+  content: url(https://cdn.shopify.com/s/files/1/1473/3902/products/layout_2-Numpad_360x.jpg?v=1673598869);
+  filter: brightness(80%);
+}
+/* CLOSE KEYCAPS */
 
 /* FOOTER */
 .icon {
@@ -101,7 +261,6 @@
 footer {
   margin-top: 3rem;
   background-color: black;
-  width: 1360px;
   padding-top: 2rem;
 }
 
@@ -161,3 +320,59 @@ footer {
   color: red;
 }
 /* CLOSE FOOTER */
+
+/* FOR HANDPHONE */
+@media screen and (max-width: 600px) {
+  /* NAVBAR */
+  .navbar-brand img {
+    height: 7vmin;
+  }
+  /* CLOSE NAVBAR */
+
+  /* BUTTON */
+  .jumbotron {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+  }
+
+  .accessories {
+    margin-top: 3rem;
+  }
+
+  .bg {
+    background-color: rgba(0, 0, 0, 50%);
+    width: 200px;
+    height: 200px;
+  }
+
+  .bg h1 {
+    padding-top: 60px;
+  }
+  /* CLOSE BUTTON */
+
+
+/* NEW ARRIVAL */
+.new-arrival {
+  display: none;
+}
+/* CLOSE NEW ARRIVAL */
+
+/* CAROUSEL NEW-ARRIVAL */
+.carousel {
+  display: block;
+}
+
+.harga {
+  position: absolute;
+  top: 86%;
+  left: 65%;
+  transform: translate(-80%, -60%);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+/* CLOSE CAROUSEL NEW-ARRIVAL */
+}
+/* CLOSE FOR HANDPHONE */
